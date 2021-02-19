@@ -1,0 +1,59 @@
+.body__section {
+  background-image: url(../img/city.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.title {
+  color: #c211a0;
+  font-size: 3.6vw;
+}
+.section {
+  padding-top: 250px;
+}
+.detail {
+  padding-top: 1rem;
+  line-height: 22px;
+  color: #d2cedd;
+  font-size: 21px;
+}
+.link {
+  padding-top: 3rem;
+}
+.btn__style {
+  border: 2px solid #b42a9a;
+  outline-style: none;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.btn__style a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 12px;
+}
+.btn__style:hover {
+  background-color: #c211a0;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .section {
+    position: absolute;
+    bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .detail {
+    padding-top: 5px;
+  }
+  .link {
+    padding-top: 10px;
+  }
+}
