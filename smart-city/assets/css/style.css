@@ -7,7 +7,7 @@
   position: relative;
 }
 .section {
-  padding-top: 250px;
+  padding-top: 230px;
 }
 .card {
   background-color: #ffffff45;
@@ -82,4 +82,12 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.contact__title {
+  font-size: 26px;
+  color: #c211a0;
+}
+.contact__detail {
+  font-size: 16px;
 }
